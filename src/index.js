@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
+import ReactDOM from './yj-react/react-dom';
 import "./index.css";
 
 class ClsComponent extends Component {
@@ -34,10 +34,9 @@ const jsx = (
   <div className="border">
     <h4 className="red">全栈</h4>
     <a href="https://www.baidu.com">baidu</a>
-    <FunComponent  name='function'/>
+    {/* <FunComponent  name='function'/>
     <ClsComponent name='class'/>
-    <FragmentComponent />
+    <FragmentComponent /> */}
   </div>
 );
-console.log('jsx: ', jsx, React.version);
 ReactDOM.render(jsx, document.getElementById("root"));

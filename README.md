@@ -14,4 +14,6 @@
 - React17 原理：不会将 JSX 转换为 React.createElement，而是自动从 React 的 package 中引入新的入口函数并调用。另外升级到 17 之后不会改变 JSX 语法，旧的 JSX 转换也将继续工作。    
     
 ## React
-- 核心文件夹：react、react-dom、react-reconciler、scheduler、shared
+- 核心文件夹：react、react-dom、react-reconciler、scheduler、shared；
+
+### diff算法
